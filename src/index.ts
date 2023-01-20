@@ -1,10 +1,18 @@
-class Person {
-  speak(name?: string) {
-    return `Olá ${name}`;
-  }
+import "reflect-metadata";
+import { ApolloServer } from "apollo-server";
+import "./connection";
+import { buildSchema } from "type-graphql";
+import { BannerResolver } from "./banner/BannerResolver";
+
+async function bootstrap() {
+  const schema = await buildSchema({
+    resolvers: [BannerResolver],
+    validate: false,
+  });
+
+  const server = new ApolloServer({ schema });
+
+  server.listen({ port: 4100 }, console.log("Server is running port 4100"!));
 }
 
-const p = new Person();
-
-console.log(p.speak("luan1"));
-p.speak("fulano");
+bootstrap();
