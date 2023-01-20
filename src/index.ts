@@ -3,10 +3,11 @@ import { ApolloServer } from "apollo-server";
 import "./connection";
 import { buildSchema } from "type-graphql";
 import { BannerResolver } from "./banner/BannerResolver";
+import { ContactResolver } from "./contact/ContactResolver";
 
 async function bootstrap() {
   const schema = await buildSchema({
-    resolvers: [BannerResolver],
+    resolvers: [BannerResolver, ContactResolver],
     validate: false,
   });
 
