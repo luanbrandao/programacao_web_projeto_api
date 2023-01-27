@@ -8,6 +8,8 @@ class Banner {
   title: string;
   @Field()
   category: string;
+  @Field()
+  imageUrl: string;
 }
 
 export { Banner };

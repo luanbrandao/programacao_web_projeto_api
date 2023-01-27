@@ -10,6 +10,8 @@ class BannerInput {
   title: string;
   @Field()
   category: string;
+  @Field()
+  imageUrl: String;
 }
 
 @Resolver()
