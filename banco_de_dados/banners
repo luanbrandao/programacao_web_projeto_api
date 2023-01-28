@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "63d2b83967aeb6a211e4c026"
+  },
+  "description": "test",
+  "title": "Vestidos para formatura, casamentos e muito mais!",
+  "category": "test",
+  "imageUrl": "https://cdn0.casamentos.com.br/vendor/5281/3_2/960/jpg/vestido-festa.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d2c42e67aeb6a211e4c050"
+  },
+  "description": "test",
+  "title": "Desenhos dos seus vestidos feitos exclusivamente para você",
+  "category": "test",
+  "imageUrl": "https://cdn0.casamentos.com.br/vendor/5281/3_2/960/jpg/vestido-festa.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d2c44c67aeb6a211e4c053"
+  },
+  "description": "test",
+  "title": "Roupas bordadas do jeito que você sempre sonhou.",
+  "category": "test",
+  "imageUrl": "https://cdn0.casamentos.com.br/vendor/5281/3_2/960/jpg/vestido-festa.jpeg",
+  "__v": 0
+}]
