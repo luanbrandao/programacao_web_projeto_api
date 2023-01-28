@@ -4,6 +4,11 @@
     </h1>
 </div>
 
+## :wrench: Configurando o projeto.
+
+:heavy_check_mark: estou usando o node na versão 8.5.0.
+:heavy_check_mark: rodar o comando "npm install" para instalar as dependências.
+
 ## :wrench: Configurando o banco.
 
 :heavy_check_mark: precisa instalar o banco de dados mongodb e criar um database com o nome de "graphql", o arquivo
